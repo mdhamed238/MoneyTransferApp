@@ -32,9 +32,8 @@ public class LoginServlet extends HttpServlet {
     HttpServletRequest request,
     HttpServletResponse response
   ) throws ServletException, IOException {
-    System.out.println("request = " + request.getContextPath().toString());
     request
-            .getRequestDispatcher("login.jsp")
+            .getRequestDispatcher("home.jsp")
             .forward(request, response);
   }
 
@@ -52,12 +51,11 @@ public class LoginServlet extends HttpServlet {
     if (user != null) {
       HttpSession session = request.getSession();
       session.setAttribute("user", user);
-      response.sendRedirect("home.jsp");
-
+      response.sendRedirect("/home");
     } else {
       request.setAttribute("errorMessage", "Invalid username or password");
       request
-        .getRequestDispatcher("login.jsp")
+        .getRequestDispatcher("index.jsp")
         .forward(request, response);
     }
   }

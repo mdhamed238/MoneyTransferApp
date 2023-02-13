@@ -39,7 +39,6 @@ public class DataStorage {
   public void updateUser(User user) {
     users.put(user.getUsername(), user);
   }
-
   public User loginUser(String username, String password) {
     User user = getUser(username);
     if (user.getPassword() == password) {

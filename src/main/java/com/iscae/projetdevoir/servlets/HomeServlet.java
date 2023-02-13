@@ -19,13 +19,13 @@ public class HomeServlet extends HttpServlet {
     User user = (User) request.getSession().getAttribute("user");
 
     if (user == null) {
-      response.sendRedirect("/login");
+      response.sendRedirect("/");
       return;
     }
 
     request.setAttribute("username", user.getUsername());
     request
-      .getRequestDispatcher("/WEB-INF/views/home.jsp")
+      .getRequestDispatcher("home.jsp")
       .forward(request, response);
   }
 }
