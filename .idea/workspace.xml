@@ -10,20 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cfe644b-aa63-40b1-a7f8-965f88e889d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/services/ApplicationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/services/ChangePasswordService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/services/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/models/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/models/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/models/Transfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/models/TransferService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/services/CreateTransferServiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/utils/Rand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/services/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/controllers/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/services/NormalUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/controllers/NormalUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/services/ResponsibleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/controllers/ResponsibleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/servlets/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/servlets/HomeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/servlets/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/utils/DataStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/utils/DataStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/partials/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/partials/footer.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -86,6 +81,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.iscae.projetdevoir.models" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/servlets" />
@@ -199,7 +197,7 @@
       <workItem from="1676315443851" duration="3689000" />
       <workItem from="1676325287159" duration="24562000" />
       <workItem from="1676368780091" duration="1258000" />
-      <workItem from="1676372115084" duration="7426000" />
+      <workItem from="1676372115084" duration="10264000" />
     </task>
     <task id="LOCAL-00001" summary="Fix servlet mapping issue">
       <created>1676329698417</created>
@@ -230,6 +228,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Fix servlet mapping issue" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/projet_devoir$Tomcat_10_0_27.ic" NAME="Tomcat 10.0.27 Coverage Results" MODIFIED="1676379326293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/projet_devoir$Tomcat_10_0_27.ic" NAME="Tomcat 10.0.27 Coverage Results" MODIFIED="1676379562483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
