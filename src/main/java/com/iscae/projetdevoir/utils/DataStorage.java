@@ -13,7 +13,7 @@ public class DataStorage {
 
   private DataStorage() {
     users = new HashMap<>();
-    User admin = new Admin("admin", "password");
+    User admin = new Admin("admin", "admin");
     users.put(admin.getUsername(), admin);
   }
 
@@ -41,10 +41,18 @@ public class DataStorage {
   }
   public User loginUser(String username, String password) {
     User user = getUser(username);
-    if (user.getPassword() == password) {
+
+    if(user == null)
+      return null;
+
+    if (user.getPassword().equals(password)) {
       return user;
     } else {
       return null;
     }
+  }
+
+  public void changePassword(String username, String newPassword) {
+    getUser(username).setPassword(newPassword);
   }
 }

@@ -1,9 +1,9 @@
-package com.iscae.projetdevoir.services;
+package com.iscae.projetdevoir.controllers;
 
 import com.iscae.projetdevoir.models.User;
 import com.iscae.projetdevoir.utils.DataStorage;
 
-public class NormalUserService {
+public class ResponsibleController {
 
   DataStorage dataStorage = DataStorage.getInstance();
 
@@ -11,4 +11,5 @@ public class NormalUserService {
     User user = dataStorage.loginUser(username, password);
     return user;
   }
+
 }

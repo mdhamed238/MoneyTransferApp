@@ -10,9 +10,9 @@
 
 
 <div class="container">
-    <h1 class="my-3 text-center">
-        Welcome back <%= request.getAttribute("username") %>
-    </h1>
+    <h2 class="my-3 text-center font-weight-normal">
+        Welcome back <%= request.getAttribute("username") %> :)
+    </h2>
 </div>
 
 
