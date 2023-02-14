@@ -9,9 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cfe644b-aa63-40b1-a7f8-965f88e889d4" name="Changes" comment="4- Faire un service web qui permet l’administrateur d’ajouter un service de transfert">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/services/CreateAccountService.java" afterDir="false" />
+    <list default="true" id="7cfe644b-aa63-40b1-a7f8-965f88e889d4" name="Changes" comment="5- Faire un service web qui permet de crée uncompte chez un service de transfert.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/services/CreditAccountService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/controllers/NormalUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/controllers/NormalUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/models/NormalUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/models/NormalUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/services/CreateAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/services/CreateAccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/utils/DataStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iscae/projetdevoir/utils/DataStorage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +195,7 @@
       <workItem from="1676315443851" duration="3689000" />
       <workItem from="1676325287159" duration="24562000" />
       <workItem from="1676368780091" duration="1258000" />
-      <workItem from="1676372115084" duration="11390000" />
+      <workItem from="1676372115084" duration="12394000" />
     </task>
     <task id="LOCAL-00001" summary="Fix servlet mapping issue">
       <created>1676329698417</created>
@@ -207,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676382426355</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="5- Faire un service web qui permet de crée uncompte chez un service de transfert.">
+      <created>1676383539565</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676383539565</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +238,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix servlet mapping issue" />
     <MESSAGE value="4- Faire un service web qui permet l’administrateur d’ajouter un service de transfert" />
-    <option name="LAST_COMMIT_MESSAGE" value="4- Faire un service web qui permet l’administrateur d’ajouter un service de transfert" />
+    <MESSAGE value="5- Faire un service web qui permet de crée uncompte chez un service de transfert." />
+    <option name="LAST_COMMIT_MESSAGE" value="5- Faire un service web qui permet de crée uncompte chez un service de transfert." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/projet_devoir$Tomcat_10_0_27.ic" NAME="Tomcat 10.0.27 Coverage Results" MODIFIED="1676379562483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

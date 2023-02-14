@@ -34,7 +34,7 @@ public class CreateAccountService {
         dataStorage.addAccount(account);
 
         // Return success status
-        return Response.ok().entity("Account created successfully").build();
+        return Response.ok().entity("Account created successfully, " + account.getAccountNumber()).build();
     }
 }
 

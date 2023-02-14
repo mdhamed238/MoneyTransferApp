@@ -97,4 +97,22 @@ public class DataStorage {
 
     return transfers;
   }
+
+  public void transferMoney(
+          Account senderAccount,
+          Account recipientAccount,
+          double amount
+  ) {
+    senderAccount.transfer(recipientAccount, amount);
+  }
+
+  public void updateAccount(Account account) {
+    accounts.put(account.getAccountNumber(), account);
+  }
+
+
+
+  public void updateTransferService(TransferService transferService) {
+    transferServices.put(transferService.getName(), transferService);
+  }
 }
